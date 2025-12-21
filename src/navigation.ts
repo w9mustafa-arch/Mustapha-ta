@@ -1,7 +1,13 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
-  
+  links: [
+    {
+      text: 'SaaS',
+      href: getPermalink('/homes/saas'),
+    },
+  ],
+  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
