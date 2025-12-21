@@ -70,4 +70,3 @@ analytics:
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
-showRssFeed: false  # أضف هذا السطر هنا بالضب
